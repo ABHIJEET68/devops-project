@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium DevOps Pipeline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <main class="card">
+        <div class="header">
+            <span class="badge">v1.0.0</span>
+            <h1>DevOps Deployment</h1>
+            <p class="subtitle">Continuous Integration & Continuous Delivery</p>
+        </div>
+
+        <div class="content">
+            <p>This static application is automatically packaged into a Docker container and deployed via GitHub Actions upon every successful code commit.</p>
+        </div>
+
+        <div class="actions">
+            <button id="actionButton" class="btn-primary">
+                <span id="btnText">Trigger Pipeline</span>
+            </button>
+        </div>
+
+        <div id="message" class="message-box hidden">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
